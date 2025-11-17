@@ -26,3 +26,14 @@ Après le nettoyage, nous avons effectué une première analyse lexicale avec `t
 - [ ] Clustering (KMeans / LDA) pour dégager des thématiques
 - [ ] Analyse comparative (possibilité : versions anglaises ou françaises)
 - [ ] Construction d’un réseau lexical (NetworkX)
+
+
+**Supplémentaires**
+
+Analyse narrative du méta-récits
+
+- Analyse actancielle (modèle de Greimas) : Idéalement, nous visons à identifier les 6 rôles. Sujet, objet, destinateur, destinataire, adjuvants(helper), opposants. Et construirons un schéma actanciel global du méta-récit.
+
+- Zonage anthropique : zone identitaire, zone proximale, zone distale
+
+Référence : https://arxiv.org/pdf/2409.06540
