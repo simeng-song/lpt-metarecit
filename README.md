@@ -17,7 +17,7 @@ Nous avons constitué un corpus cohérent d'articles institutionnels chinois por
   
 Après le nettoyage, nous avons effectué une première analyse lexicale avec `tokeniez_freq.py`, utilisant la segmentation chinoise (jieba) et un filtrage de mots vides. Les fréquences obtenues montrent une forte domination de termes tels que « 发展 », « 合作 », « 共建 », « 世界 », « 人类 », « 共同体 », « 命运 », « 文明 » et « 一带一路 ». Ce champ lexical confirme la présence d'un méta-récit centré sur le développement, la coopération internationale, la vision civilisationnelle et les initiatives globales.  
   
-**Travail à venir : **  
+**Travail à venir :**  
 
 
 - [ ] Analyse par document (TF-IDF, variations inter-discours)
