@@ -1,9 +1,12 @@
 import json
+import os
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import jieba
 
-with open("../data/processed/corpus_clean.json", "r", encoding="utf-8") as f:
+os.chdir("/Users/songsimeng/INALCOM2/lpt")
+
+with open("data/processed/corpus_clean.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 corpus_texts = []
@@ -43,3 +46,5 @@ plt.figure(figsize=(10,6))
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
 plt.show()
+wordcloud.to_file("resultats/nuage.png")
+
