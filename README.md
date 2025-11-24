@@ -1,39 +1,48 @@
 ## Projet Linguistique pour le TAL - métarécit
 
+### 1. Objectif
+
 **Analyse du méta-récit chinois : Communauté de destin pour l'humanité (人类命运共同体)**
 
-Ce projet s'inscrit dans le cadre du cours Linguistique pour le TAL (M. Mathieu Valette). Notre objectif est d'étudier un méta-récit civilisationnel à travers un corpus de discours institutionnels chinois. Nous avons choisi le méta-récit de **« 人类命运共同体 » (communauté de destin pour l’humanité)**, concept central de plusieurs discours politiques récents (discours officiels et interventions diplomatiques).  
-   
-Ce méta-récit relève à la fois :  
+Ce projet s'inscrit dans le cadre du cours Linguistique pour le TAL (M. Mathieu Valette). Notre objectif est d'étudier un méta-récit civilisationnel à travers un corpus de discours institutionnels chinois. Nous avons choisi le méta-récit de **« 人类命运共同体 » (communauté de destin pour l'humanité)**, concept central de plusieurs discours politiques récents (discours officiels et interventions diplomatiques).  
 
-- systèmes narratifs (vision globale de l'ordre international)
-- identités narratives (positionnement identitaire de la Chine)
-- issues narratives (mécanismes concrets, par exemple les initiatives de "la Ceinture et la Route" 一带一路)  
-
-
+Nous allons analyser le méta-récit en adoptant un angle spécifique : **新时代 (Nouvelle ère)** dans un cadre temporel qui permet : 
+- d'interpréter le présent
+- d'articuler les défis mondiaux
+- de légitimer l'appel à un futur partagé
+- d'inscrire la communauté de destin pour l'humanité dans une vision évolutive de l'histoire
  
-11/17
-Nous avons constitué un corpus cohérent d'articles institutionnels chinois portant sur le méta-récit. Les textes proviennent de sources officielles telles que le Quotidien du Peuple, Xinhua et plusieurs discours diplomatiques ou politiques. Après avoir regroupé l’ensemble des documents en un fichier brut, nous avons développé un premier script (`inspect_raw.py`) permettant d’inspecter la taille, la structure et les occurrences des mots clés du corpus. Cette étape a confirmé que le corpus contient environ 60 000 caractères, 695 lignes, et que l’expression centrale « 人类命运共同体 » apparaît 185 fois, ce qui valide sa position de pivot narratif.   
-  
-Après le nettoyage, nous avons effectué une première analyse lexicale avec `tokeniez_freq.py`, utilisant la segmentation chinoise (jieba) et un filtrage de mots vides. Les fréquences obtenues montrent une forte domination de termes tels que « 发展 », « 合作 », « 共建 », « 世界 », « 人类 », « 共同体 », « 命运 », « 文明 » et « 一带一路 ». Ce champ lexical confirme la présence d'un méta-récit centré sur le développement, la coopération internationale, la vision civilisationnelle et les initiatives globales.  
-  
-**Travail à venir :**  
 
+### 2. Corpus
 
-- [ ] Analyse par document (TF-IDF, variations inter-discours)
-- [ ] Extraction de collocations (PMI, cooccurrences)
-- [ ] Wordclouds globaux et par document
-- [ ] Clustering (KMeans / LDA) pour dégager des thématiques
-- [ ] Analyse comparative (possibilité : versions anglaises ou françaises)
-- [ ] Construction d’un réseau lexical (NetworkX)
+Le corpus a été collecté via le site institutionnel [people.cn](http://www.people.com.cn/) avec le mot-clé : **« 人类命运共同体 » (communauté de destin pour l'humanité)**
+On a fait un script pour récupérer les 80 pages du site qui contiennent le mot-clé, et puis mettre dans un fichier json.
 
+### 3. Prétraitement
 
-**Supplémentaires**
+- nettoyage des balises
+- segementation avec outil jieba
+- statistique générale (fréquence des mots)
+- extraction des contextes autour de "nouvelle ère" et "communauté de destin pour l'humanité"
 
-Analyse narrative du méta-récits
+### 4. Analyse 
+
+- analyse lexicale (wordcloud, TF-IDF)
+- cooccurrences ciblées
+- clustering (KMeans / LDA)
+- réseaux lexicaux : pour visualiser l'articulation temporelle du récit (NetworkX)
+
+### 5. Analyse narrative
 
 - Analyse actancielle (modèle de Greimas) : Idéalement, nous visons à identifier les 6 rôles. Sujet, objet, destinateur, destinataire, adjuvants(helper), opposants. Et construirons un schéma actanciel global du méta-récit.
 
 - Zonage anthropique : zone identitaire, zone proximale, zone distale
 
 Référence : https://arxiv.org/pdf/2409.06540
+
+### 6. Résultat attendu
+
+- structure l'interprétation du monde
+- légitime un avenir collectif (« communauté de destin pour l'humanité »)
+- organise un récit du présent comme moment charnière
+- et crée une dynamique narrative liant passé → présent → futur
