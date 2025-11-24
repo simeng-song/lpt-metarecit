@@ -23,7 +23,7 @@ On a fait un script pour récupérer les 80 pages du site qui contiennent le mot
 - nettoyage des balises
 - segementation avec outil jieba
 - statistique générale (fréquence des mots)
-- extraction des contextes autour de "nouvelle ère" et "communauté de destin pour l'humanité"
+- extraction des contextes autour de "nouvelle ère" et "communauté de destin pour l'humanité" : 1660 sentences avec 新时代 enreigistré dans contexte.json
 
 ### 4. Analyse 
 
