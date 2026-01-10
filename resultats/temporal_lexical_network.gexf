@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-01-09">
+  <meta lastmodifieddate="2026-01-10">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -8,31 +8,6 @@
       <attribute id="0" title="node_type" type="string" />
     </attributes>
     <nodes>
-      <node id="过去" label="过去">
-        <attvalues>
-          <attvalue for="0" value="temporal" />
-        </attvalues>
-      </node>
-      <node id="如今" label="如今">
-        <attvalues>
-          <attvalue for="0" value="temporal" />
-        </attvalues>
-      </node>
-      <node id="新时代" label="新时代">
-        <attvalues>
-          <attvalue for="0" value="temporal" />
-        </attvalues>
-      </node>
-      <node id="历史" label="历史">
-        <attvalues>
-          <attvalue for="0" value="temporal" />
-        </attvalues>
-      </node>
-      <node id="面向未来" label="面向未来">
-        <attvalues>
-          <attvalue for="0" value="temporal" />
-        </attvalues>
-      </node>
       <node id="将来" label="将来">
         <attvalues>
           <attvalue for="0" value="temporal" />
@@ -43,12 +18,17 @@
           <attvalue for="0" value="temporal" />
         </attvalues>
       </node>
-      <node id="时代" label="时代">
+      <node id="如今" label="如今">
         <attvalues>
           <attvalue for="0" value="temporal" />
         </attvalues>
       </node>
-      <node id="以来" label="以来">
+      <node id="历史" label="历史">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="新时代" label="新时代">
         <attvalues>
           <attvalue for="0" value="temporal" />
         </attvalues>
@@ -58,27 +38,47 @@
           <attvalue for="0" value="temporal" />
         </attvalues>
       </node>
-      <node id="今天" label="今天">
-        <attvalues>
-          <attvalue for="0" value="temporal" />
-        </attvalues>
-      </node>
-      <node id="迈向" label="迈向">
-        <attvalues>
-          <attvalue for="0" value="temporal" />
-        </attvalues>
-      </node>
       <node id="未来" label="未来">
         <attvalues>
           <attvalue for="0" value="temporal" />
         </attvalues>
       </node>
-      <node id="征程" label="征程">
+      <node id="面向未来" label="面向未来">
         <attvalues>
           <attvalue for="0" value="temporal" />
         </attvalues>
       </node>
-      <node id="现代化" label="现代化">
+      <node id="今天" label="今天">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="以来" label="以来">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="过去" label="过去">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="和平" label="和平">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="国际" label="国际">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="精神" label="精神">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="合作" label="合作">
         <attvalues>
           <attvalue for="0" value="concept" />
         </attvalues>
@@ -93,37 +93,17 @@
           <attvalue for="0" value="concept" />
         </attvalues>
       </node>
-      <node id="特色" label="特色">
+      <node id="思想" label="思想">
         <attvalues>
           <attvalue for="0" value="concept" />
         </attvalues>
       </node>
-      <node id="命运" label="命运">
+      <node id="现代化" label="现代化">
         <attvalues>
           <attvalue for="0" value="concept" />
         </attvalues>
       </node>
-      <node id="人类" label="人类">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
-      <node id="我们" label="我们">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
-      <node id="世界" label="世界">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
-      <node id="安全" label="安全">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
-      <node id="理论" label="理论">
+      <node id="强国" label="强国">
         <attvalues>
           <attvalue for="0" value="concept" />
         </attvalues>
@@ -138,42 +118,17 @@
           <attvalue for="0" value="concept" />
         </attvalues>
       </node>
-      <node id="建设" label="建设">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
-      <node id="战略" label="战略">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
-      <node id="发展" label="发展">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
-      <node id="思想" label="思想">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
-      <node id="国际" label="国际">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
-      <node id="和平" label="和平">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
-      <node id="精神" label="精神">
-        <attvalues>
-          <attvalue for="0" value="concept" />
-        </attvalues>
-      </node>
       <node id="共同体" label="共同体">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="安全" label="安全">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="世界" label="世界">
         <attvalues>
           <attvalue for="0" value="concept" />
         </attvalues>
@@ -183,7 +138,37 @@
           <attvalue for="0" value="concept" />
         </attvalues>
       </node>
-      <node id="强国" label="强国">
+      <node id="理论" label="理论">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="特色" label="特色">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="命运" label="命运">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="发展" label="发展">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="我们" label="我们">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="建设" label="建设">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+        </attvalues>
+      </node>
+      <node id="人类" label="人类">
         <attvalues>
           <attvalue for="0" value="concept" />
         </attvalues>
@@ -193,225 +178,158 @@
           <attvalue for="0" value="concept" />
         </attvalues>
       </node>
-      <node id="合作" label="合作">
+      <node id="战略" label="战略">
         <attvalues>
           <attvalue for="0" value="concept" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge source="过去" target="创新" id="0" weight="1" />
-      <edge source="过去" target="特色" id="1" weight="4" />
-      <edge source="过去" target="我们" id="2" weight="1" />
-      <edge source="过去" target="社会主义" id="3" weight="4" />
-      <edge source="过去" target="建设" id="4" weight="1" />
-      <edge source="过去" target="发展" id="5" weight="2" />
-      <edge source="过去" target="思想" id="6" weight="4" />
-      <edge source="过去" target="精神" id="7" weight="1" />
-      <edge source="过去" target="命运" id="8" weight="1" />
-      <edge source="过去" target="世界" id="9" weight="1" />
-      <edge source="过去" target="国家" id="10" weight="1" />
-      <edge source="过去" target="共同体" id="11" weight="1" />
-      <edge source="如今" target="建设" id="12" weight="1" />
-      <edge source="如今" target="强国" id="13" weight="1" />
-      <edge source="如今" target="人民" id="14" weight="1" />
-      <edge source="历史" target="创新" id="15" weight="14" />
-      <edge source="历史" target="特色" id="16" weight="31" />
-      <edge source="历史" target="我们" id="17" weight="36" />
-      <edge source="历史" target="理论" id="18" weight="14" />
-      <edge source="历史" target="国家" id="19" weight="15" />
-      <edge source="历史" target="社会主义" id="20" weight="31" />
-      <edge source="历史" target="建设" id="21" weight="27" />
-      <edge source="历史" target="发展" id="22" weight="44" />
-      <edge source="历史" target="人民" id="23" weight="25" />
-      <edge source="历史" target="安全" id="24" weight="4" />
-      <edge source="历史" target="强国" id="25" weight="6" />
-      <edge source="历史" target="现代化" id="26" weight="19" />
-      <edge source="历史" target="中国式" id="27" weight="14" />
-      <edge source="历史" target="思想" id="28" weight="25" />
-      <edge source="历史" target="战略" id="29" weight="17" />
-      <edge source="历史" target="人类" id="30" weight="21" />
-      <edge source="历史" target="精神" id="31" weight="16" />
-      <edge source="历史" target="世界" id="32" weight="19" />
-      <edge source="历史" target="国际" id="33" weight="9" />
-      <edge source="历史" target="文化" id="34" weight="21" />
-      <edge source="历史" target="命运" id="35" weight="18" />
-      <edge source="历史" target="和平" id="36" weight="6" />
-      <edge source="历史" target="共同体" id="37" weight="18" />
-      <edge source="历史" target="合作" id="38" weight="9" />
-      <edge source="面向未来" target="创新" id="39" weight="1" />
-      <edge source="面向未来" target="理论" id="40" weight="1" />
-      <edge source="面向未来" target="战略" id="41" weight="4" />
-      <edge source="面向未来" target="发展" id="42" weight="1" />
-      <edge source="面向未来" target="命运" id="43" weight="3" />
-      <edge source="面向未来" target="世界" id="44" weight="1" />
-      <edge source="面向未来" target="社会主义" id="45" weight="1" />
-      <edge source="面向未来" target="精神" id="46" weight="1" />
-      <edge source="面向未来" target="共同体" id="47" weight="3" />
-      <edge source="面向未来" target="合作" id="48" weight="1" />
-      <edge source="走向" target="社会主义" id="49" weight="4" />
-      <edge source="走向" target="建设" id="50" weight="5" />
-      <edge source="走向" target="现代化" id="51" weight="3" />
-      <edge source="走向" target="特色" id="52" weight="4" />
-      <edge source="走向" target="国家" id="53" weight="3" />
-      <edge source="走向" target="战略" id="54" weight="1" />
-      <edge source="走向" target="精神" id="55" weight="4" />
-      <edge source="走向" target="文化" id="56" weight="4" />
-      <edge source="走向" target="我们" id="57" weight="4" />
-      <edge source="走向" target="世界" id="58" weight="3" />
-      <edge source="走向" target="发展" id="59" weight="3" />
-      <edge source="走向" target="国际" id="60" weight="1" />
-      <edge source="走向" target="和平" id="61" weight="2" />
-      <edge source="走向" target="合作" id="62" weight="1" />
-      <edge source="走向" target="强国" id="63" weight="1" />
-      <edge source="走向" target="人民" id="64" weight="3" />
-      <edge source="走向" target="思想" id="65" weight="1" />
-      <edge source="走向" target="中国式" id="66" weight="2" />
-      <edge source="时代" target="现代化" id="67" weight="291" />
-      <edge source="时代" target="国家" id="68" weight="200" />
-      <edge source="时代" target="战略" id="69" weight="185" />
-      <edge source="时代" target="安全" id="70" weight="105" />
-      <edge source="时代" target="发展" id="71" weight="641" />
-      <edge source="时代" target="精神" id="72" weight="154" />
-      <edge source="时代" target="特色" id="73" weight="520" />
-      <edge source="时代" target="社会主义" id="74" weight="527" />
-      <edge source="时代" target="思想" id="75" weight="476" />
-      <edge source="时代" target="建设" id="76" weight="383" />
-      <edge source="时代" target="创新" id="77" weight="195" />
-      <edge source="时代" target="我们" id="78" weight="254" />
-      <edge source="时代" target="理论" id="79" weight="177" />
-      <edge source="时代" target="人民" id="80" weight="184" />
-      <edge source="时代" target="命运" id="81" weight="247" />
-      <edge source="时代" target="人类" id="82" weight="147" />
-      <edge source="时代" target="共同体" id="83" weight="247" />
-      <edge source="时代" target="合作" id="84" weight="155" />
-      <edge source="时代" target="中国式" id="85" weight="176" />
-      <edge source="时代" target="强国" id="86" weight="168" />
-      <edge source="时代" target="文化" id="87" weight="175" />
-      <edge source="时代" target="和平" id="88" weight="71" />
-      <edge source="时代" target="国际" id="89" weight="147" />
-      <edge source="时代" target="世界" id="90" weight="160" />
-      <edge source="以来" target="创新" id="91" weight="25" />
-      <edge source="以来" target="我们" id="92" weight="36" />
-      <edge source="以来" target="理论" id="93" weight="26" />
-      <edge source="以来" target="发展" id="94" weight="88" />
-      <edge source="以来" target="思想" id="95" weight="33" />
-      <edge source="以来" target="人民" id="96" weight="24" />
-      <edge source="以来" target="国家" id="97" weight="32" />
-      <edge source="以来" target="建设" id="98" weight="41" />
-      <edge source="以来" target="战略" id="99" weight="25" />
-      <edge source="以来" target="强国" id="100" weight="9" />
-      <edge source="以来" target="现代化" id="101" weight="32" />
-      <edge source="以来" target="命运" id="102" weight="24" />
-      <edge source="以来" target="人类" id="103" weight="12" />
-      <edge source="以来" target="国际" id="104" weight="23" />
-      <edge source="以来" target="共同体" id="105" weight="25" />
-      <edge source="以来" target="特色" id="106" weight="38" />
-      <edge source="以来" target="世界" id="107" weight="20" />
-      <edge source="以来" target="中国式" id="108" weight="18" />
-      <edge source="以来" target="精神" id="109" weight="9" />
-      <edge source="以来" target="合作" id="110" weight="21" />
-      <edge source="以来" target="社会主义" id="111" weight="38" />
-      <edge source="以来" target="文化" id="112" weight="10" />
-      <edge source="以来" target="安全" id="113" weight="9" />
-      <edge source="以来" target="和平" id="114" weight="4" />
-      <edge source="当前" target="人民" id="115" weight="2" />
-      <edge source="当前" target="创新" id="116" weight="3" />
-      <edge source="当前" target="特色" id="117" weight="7" />
-      <edge source="当前" target="社会主义" id="118" weight="7" />
-      <edge source="当前" target="国际" id="119" weight="5" />
-      <edge source="当前" target="发展" id="120" weight="7" />
-      <edge source="当前" target="理论" id="121" weight="1" />
-      <edge source="当前" target="思想" id="122" weight="5" />
-      <edge source="当前" target="建设" id="123" weight="6" />
-      <edge source="当前" target="国家" id="124" weight="3" />
-      <edge source="当前" target="和平" id="125" weight="1" />
-      <edge source="当前" target="合作" id="126" weight="2" />
-      <edge source="当前" target="战略" id="127" weight="2" />
-      <edge source="当前" target="命运" id="128" weight="2" />
-      <edge source="当前" target="世界" id="129" weight="1" />
-      <edge source="当前" target="共同体" id="130" weight="2" />
-      <edge source="当前" target="现代化" id="131" weight="5" />
-      <edge source="当前" target="人类" id="132" weight="1" />
-      <edge source="当前" target="安全" id="133" weight="1" />
-      <edge source="当前" target="文化" id="134" weight="1" />
-      <edge source="当前" target="强国" id="135" weight="4" />
-      <edge source="当前" target="我们" id="136" weight="2" />
-      <edge source="当前" target="中国式" id="137" weight="3" />
-      <edge source="今天" target="发展" id="138" weight="3" />
-      <edge source="今天" target="人民" id="139" weight="2" />
-      <edge source="今天" target="命运" id="140" weight="2" />
-      <edge source="今天" target="人类" id="141" weight="3" />
-      <edge source="今天" target="建设" id="142" weight="2" />
-      <edge source="今天" target="精神" id="143" weight="2" />
-      <edge source="今天" target="共同体" id="144" weight="2" />
-      <edge source="今天" target="强国" id="145" weight="2" />
-      <edge source="今天" target="战略" id="146" weight="1" />
-      <edge source="迈向" target="现代化" id="147" weight="5" />
-      <edge source="迈向" target="特色" id="148" weight="4" />
-      <edge source="迈向" target="社会主义" id="149" weight="4" />
-      <edge source="迈向" target="建设" id="150" weight="2" />
-      <edge source="迈向" target="战略" id="151" weight="2" />
-      <edge source="迈向" target="创新" id="152" weight="2" />
-      <edge source="迈向" target="理论" id="153" weight="3" />
-      <edge source="迈向" target="发展" id="154" weight="5" />
-      <edge source="迈向" target="思想" id="155" weight="2" />
-      <edge source="迈向" target="世界" id="156" weight="2" />
-      <edge source="迈向" target="国家" id="157" weight="1" />
-      <edge source="迈向" target="国际" id="158" weight="2" />
-      <edge source="迈向" target="人民" id="159" weight="1" />
-      <edge source="迈向" target="合作" id="160" weight="2" />
-      <edge source="迈向" target="命运" id="161" weight="1" />
-      <edge source="迈向" target="安全" id="162" weight="1" />
-      <edge source="迈向" target="和平" id="163" weight="1" />
-      <edge source="迈向" target="精神" id="164" weight="1" />
-      <edge source="迈向" target="共同体" id="165" weight="1" />
-      <edge source="未来" target="现代化" id="166" weight="2" />
-      <edge source="未来" target="建设" id="167" weight="6" />
-      <edge source="未来" target="发展" id="168" weight="14" />
-      <edge source="未来" target="特色" id="169" weight="8" />
-      <edge source="未来" target="我们" id="170" weight="8" />
-      <edge source="未来" target="社会主义" id="171" weight="7" />
-      <edge source="未来" target="战略" id="172" weight="5" />
-      <edge source="未来" target="思想" id="173" weight="8" />
-      <edge source="未来" target="精神" id="174" weight="2" />
-      <edge source="未来" target="世界" id="175" weight="8" />
-      <edge source="未来" target="国际" id="176" weight="5" />
-      <edge source="未来" target="文化" id="177" weight="4" />
-      <edge source="未来" target="人类" id="178" weight="9" />
-      <edge source="未来" target="命运" id="179" weight="8" />
-      <edge source="未来" target="国家" id="180" weight="3" />
-      <edge source="未来" target="共同体" id="181" weight="9" />
-      <edge source="未来" target="合作" id="182" weight="2" />
-      <edge source="未来" target="和平" id="183" weight="4" />
-      <edge source="未来" target="理论" id="184" weight="2" />
-      <edge source="未来" target="人民" id="185" weight="3" />
-      <edge source="未来" target="创新" id="186" weight="2" />
-      <edge source="未来" target="中国式" id="187" weight="1" />
-      <edge source="征程" target="发展" id="188" weight="78" />
-      <edge source="征程" target="人民" id="189" weight="24" />
-      <edge source="征程" target="安全" id="190" weight="9" />
-      <edge source="征程" target="国家" id="191" weight="27" />
-      <edge source="征程" target="强国" id="192" weight="50" />
-      <edge source="征程" target="创新" id="193" weight="22" />
-      <edge source="征程" target="建设" id="194" weight="71" />
-      <edge source="征程" target="战略" id="195" weight="17" />
-      <edge source="征程" target="特色" id="196" weight="47" />
-      <edge source="征程" target="社会主义" id="197" weight="66" />
-      <edge source="征程" target="国际" id="198" weight="13" />
-      <edge source="征程" target="精神" id="199" weight="28" />
-      <edge source="征程" target="思想" id="200" weight="41" />
-      <edge source="征程" target="文化" id="201" weight="21" />
-      <edge source="征程" target="现代化" id="202" weight="77" />
-      <edge source="征程" target="中国式" id="203" weight="56" />
-      <edge source="征程" target="世界" id="204" weight="11" />
-      <edge source="征程" target="我们" id="205" weight="56" />
-      <edge source="征程" target="理论" id="206" weight="21" />
-      <edge source="征程" target="人类" id="207" weight="16" />
-      <edge source="征程" target="和平" id="208" weight="13" />
-      <edge source="征程" target="命运" id="209" weight="12" />
-      <edge source="征程" target="共同体" id="210" weight="11" />
-      <edge source="征程" target="合作" id="211" weight="8" />
+      <edge source="走向" target="社会主义" id="0" weight="4" />
+      <edge source="走向" target="建设" id="1" weight="5" />
+      <edge source="走向" target="精神" id="2" weight="4" />
+      <edge source="走向" target="现代化" id="3" weight="3" />
+      <edge source="走向" target="国家" id="4" weight="3" />
+      <edge source="走向" target="文化" id="5" weight="4" />
+      <edge source="走向" target="特色" id="6" weight="4" />
+      <edge source="走向" target="战略" id="7" weight="1" />
+      <edge source="走向" target="和平" id="8" weight="2" />
+      <edge source="走向" target="国际" id="9" weight="1" />
+      <edge source="走向" target="合作" id="10" weight="1" />
+      <edge source="走向" target="世界" id="11" weight="3" />
+      <edge source="走向" target="发展" id="12" weight="3" />
+      <edge source="走向" target="我们" id="13" weight="4" />
+      <edge source="走向" target="强国" id="14" weight="1" />
+      <edge source="走向" target="人民" id="15" weight="3" />
+      <edge source="走向" target="思想" id="16" weight="1" />
+      <edge source="走向" target="中国式" id="17" weight="2" />
+      <edge source="如今" target="强国" id="18" weight="1" />
+      <edge source="如今" target="建设" id="19" weight="1" />
+      <edge source="如今" target="人民" id="20" weight="1" />
+      <edge source="历史" target="创新" id="21" weight="14" />
+      <edge source="历史" target="国家" id="22" weight="15" />
+      <edge source="历史" target="社会主义" id="23" weight="31" />
+      <edge source="历史" target="理论" id="24" weight="14" />
+      <edge source="历史" target="特色" id="25" weight="31" />
+      <edge source="历史" target="发展" id="26" weight="44" />
+      <edge source="历史" target="我们" id="27" weight="36" />
+      <edge source="历史" target="建设" id="28" weight="27" />
+      <edge source="历史" target="人民" id="29" weight="25" />
+      <edge source="历史" target="强国" id="30" weight="6" />
+      <edge source="历史" target="安全" id="31" weight="4" />
+      <edge source="历史" target="中国式" id="32" weight="14" />
+      <edge source="历史" target="现代化" id="33" weight="19" />
+      <edge source="历史" target="思想" id="34" weight="25" />
+      <edge source="历史" target="战略" id="35" weight="17" />
+      <edge source="历史" target="人类" id="36" weight="21" />
+      <edge source="历史" target="精神" id="37" weight="16" />
+      <edge source="历史" target="国际" id="38" weight="9" />
+      <edge source="历史" target="世界" id="39" weight="19" />
+      <edge source="历史" target="文化" id="40" weight="21" />
+      <edge source="历史" target="和平" id="41" weight="6" />
+      <edge source="历史" target="共同体" id="42" weight="18" />
+      <edge source="历史" target="命运" id="43" weight="18" />
+      <edge source="历史" target="合作" id="44" weight="9" />
+      <edge source="当前" target="人民" id="45" weight="2" />
+      <edge source="当前" target="国际" id="46" weight="5" />
+      <edge source="当前" target="创新" id="47" weight="3" />
+      <edge source="当前" target="社会主义" id="48" weight="7" />
+      <edge source="当前" target="特色" id="49" weight="7" />
+      <edge source="当前" target="发展" id="50" weight="7" />
+      <edge source="当前" target="思想" id="51" weight="5" />
+      <edge source="当前" target="理论" id="52" weight="1" />
+      <edge source="当前" target="建设" id="53" weight="6" />
+      <edge source="当前" target="和平" id="54" weight="1" />
+      <edge source="当前" target="合作" id="55" weight="2" />
+      <edge source="当前" target="国家" id="56" weight="3" />
+      <edge source="当前" target="战略" id="57" weight="2" />
+      <edge source="当前" target="共同体" id="58" weight="2" />
+      <edge source="当前" target="世界" id="59" weight="1" />
+      <edge source="当前" target="命运" id="60" weight="2" />
+      <edge source="当前" target="现代化" id="61" weight="5" />
+      <edge source="当前" target="强国" id="62" weight="4" />
+      <edge source="当前" target="安全" id="63" weight="1" />
+      <edge source="当前" target="文化" id="64" weight="1" />
+      <edge source="当前" target="人类" id="65" weight="1" />
+      <edge source="当前" target="我们" id="66" weight="2" />
+      <edge source="当前" target="中国式" id="67" weight="3" />
+      <edge source="未来" target="现代化" id="68" weight="2" />
+      <edge source="未来" target="发展" id="69" weight="14" />
+      <edge source="未来" target="建设" id="70" weight="6" />
+      <edge source="未来" target="精神" id="71" weight="2" />
+      <edge source="未来" target="思想" id="72" weight="8" />
+      <edge source="未来" target="社会主义" id="73" weight="7" />
+      <edge source="未来" target="特色" id="74" weight="8" />
+      <edge source="未来" target="我们" id="75" weight="8" />
+      <edge source="未来" target="战略" id="76" weight="5" />
+      <edge source="未来" target="国际" id="77" weight="5" />
+      <edge source="未来" target="世界" id="78" weight="8" />
+      <edge source="未来" target="文化" id="79" weight="4" />
+      <edge source="未来" target="人类" id="80" weight="9" />
+      <edge source="未来" target="合作" id="81" weight="2" />
+      <edge source="未来" target="国家" id="82" weight="3" />
+      <edge source="未来" target="共同体" id="83" weight="9" />
+      <edge source="未来" target="命运" id="84" weight="8" />
+      <edge source="未来" target="和平" id="85" weight="4" />
+      <edge source="未来" target="理论" id="86" weight="2" />
+      <edge source="未来" target="人民" id="87" weight="3" />
+      <edge source="未来" target="创新" id="88" weight="2" />
+      <edge source="未来" target="中国式" id="89" weight="1" />
+      <edge source="面向未来" target="创新" id="90" weight="1" />
+      <edge source="面向未来" target="理论" id="91" weight="1" />
+      <edge source="面向未来" target="发展" id="92" weight="1" />
+      <edge source="面向未来" target="战略" id="93" weight="4" />
+      <edge source="面向未来" target="精神" id="94" weight="1" />
+      <edge source="面向未来" target="合作" id="95" weight="1" />
+      <edge source="面向未来" target="社会主义" id="96" weight="1" />
+      <edge source="面向未来" target="共同体" id="97" weight="3" />
+      <edge source="面向未来" target="世界" id="98" weight="1" />
+      <edge source="面向未来" target="命运" id="99" weight="3" />
+      <edge source="今天" target="发展" id="100" weight="3" />
+      <edge source="今天" target="人民" id="101" weight="2" />
+      <edge source="今天" target="精神" id="102" weight="2" />
+      <edge source="今天" target="强国" id="103" weight="2" />
+      <edge source="今天" target="共同体" id="104" weight="2" />
+      <edge source="今天" target="命运" id="105" weight="2" />
+      <edge source="今天" target="建设" id="106" weight="2" />
+      <edge source="今天" target="人类" id="107" weight="3" />
+      <edge source="今天" target="战略" id="108" weight="1" />
+      <edge source="以来" target="创新" id="109" weight="25" />
+      <edge source="以来" target="思想" id="110" weight="33" />
+      <edge source="以来" target="理论" id="111" weight="26" />
+      <edge source="以来" target="发展" id="112" weight="88" />
+      <edge source="以来" target="我们" id="113" weight="36" />
+      <edge source="以来" target="人民" id="114" weight="24" />
+      <edge source="以来" target="强国" id="115" weight="9" />
+      <edge source="以来" target="国家" id="116" weight="32" />
+      <edge source="以来" target="建设" id="117" weight="41" />
+      <edge source="以来" target="战略" id="118" weight="25" />
+      <edge source="以来" target="现代化" id="119" weight="32" />
+      <edge source="以来" target="国际" id="120" weight="23" />
+      <edge source="以来" target="共同体" id="121" weight="25" />
+      <edge source="以来" target="命运" id="122" weight="24" />
+      <edge source="以来" target="人类" id="123" weight="12" />
+      <edge source="以来" target="世界" id="124" weight="20" />
+      <edge source="以来" target="特色" id="125" weight="38" />
+      <edge source="以来" target="中国式" id="126" weight="18" />
+      <edge source="以来" target="精神" id="127" weight="9" />
+      <edge source="以来" target="合作" id="128" weight="21" />
+      <edge source="以来" target="社会主义" id="129" weight="38" />
+      <edge source="以来" target="文化" id="130" weight="10" />
+      <edge source="以来" target="安全" id="131" weight="9" />
+      <edge source="以来" target="和平" id="132" weight="4" />
+      <edge source="过去" target="创新" id="133" weight="1" />
+      <edge source="过去" target="思想" id="134" weight="4" />
+      <edge source="过去" target="社会主义" id="135" weight="4" />
+      <edge source="过去" target="特色" id="136" weight="4" />
+      <edge source="过去" target="发展" id="137" weight="2" />
+      <edge source="过去" target="我们" id="138" weight="1" />
+      <edge source="过去" target="建设" id="139" weight="1" />
+      <edge source="过去" target="精神" id="140" weight="1" />
+      <edge source="过去" target="国家" id="141" weight="1" />
+      <edge source="过去" target="共同体" id="142" weight="1" />
+      <edge source="过去" target="世界" id="143" weight="1" />
+      <edge source="过去" target="命运" id="144" weight="1" />
     </edges>
   </graph>
 </gexf>
