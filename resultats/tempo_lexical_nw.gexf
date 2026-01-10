@@ -1,0 +1,1413 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-10">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="count" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="node_type" type="string" />
+      <attribute id="1" title="freq" type="long" />
+    </attributes>
+    <nodes>
+      <node id="历史" label="历史">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="将来" label="将来">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="新时代" label="新时代">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="过去" label="过去">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="迈向" label="迈向">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="当前" label="当前">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="以来" label="以来">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="面向未来" label="面向未来">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="时代" label="时代">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="今天" label="今天">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="征程" label="征程">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="走向" label="走向">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="未来" label="未来">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="如今" label="如今">
+        <attvalues>
+          <attvalue for="0" value="temporal" />
+        </attvalues>
+      </node>
+      <node id="合作" label="合作">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="155" />
+        </attvalues>
+      </node>
+      <node id="精神" label="精神">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="155" />
+        </attvalues>
+      </node>
+      <node id="和平" label="和平">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="71" />
+        </attvalues>
+      </node>
+      <node id="命运" label="命运">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="247" />
+        </attvalues>
+      </node>
+      <node id="国家" label="国家">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="200" />
+        </attvalues>
+      </node>
+      <node id="战略" label="战略">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="185" />
+        </attvalues>
+      </node>
+      <node id="文化" label="文化">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="176" />
+        </attvalues>
+      </node>
+      <node id="安全" label="安全">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="105" />
+        </attvalues>
+      </node>
+      <node id="现代化" label="现代化">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="291" />
+        </attvalues>
+      </node>
+      <node id="社会主义" label="社会主义">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="527" />
+        </attvalues>
+      </node>
+      <node id="人民" label="人民">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="184" />
+        </attvalues>
+      </node>
+      <node id="中国式" label="中国式">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="176" />
+        </attvalues>
+      </node>
+      <node id="我们" label="我们">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="254" />
+        </attvalues>
+      </node>
+      <node id="创新" label="创新">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="195" />
+        </attvalues>
+      </node>
+      <node id="特色" label="特色">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="520" />
+        </attvalues>
+      </node>
+      <node id="国际" label="国际">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="147" />
+        </attvalues>
+      </node>
+      <node id="共同体" label="共同体">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="247" />
+        </attvalues>
+      </node>
+      <node id="建设" label="建设">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="383" />
+        </attvalues>
+      </node>
+      <node id="思想" label="思想">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="476" />
+        </attvalues>
+      </node>
+      <node id="发展" label="发展">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="641" />
+        </attvalues>
+      </node>
+      <node id="人类" label="人类">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="147" />
+        </attvalues>
+      </node>
+      <node id="世界" label="世界">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="160" />
+        </attvalues>
+      </node>
+      <node id="理论" label="理论">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="177" />
+        </attvalues>
+      </node>
+      <node id="强国" label="强国">
+        <attvalues>
+          <attvalue for="0" value="concept" />
+          <attvalue for="1" value="168" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="历史" target="国家" id="0" weight="0.075">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="社会主义" id="1" weight="0.058823529411764726">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="人民" id="2" weight="0.13586956521739124">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="我们" id="3" weight="0.1417322834645668">
+        <attvalues>
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="创新" id="4" weight="0.0717948717948718">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="特色" id="5" weight="0.05961538461538462">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="建设" id="6" weight="0.07049608355091383">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="发展" id="7" weight="0.06864274570982837">
+        <attvalues>
+          <attvalue for="2" value="44" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="理论" id="8" weight="0.07909604519774013">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="安全" id="9" weight="0.0380952380952381">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="强国" id="10" weight="0.03571428571428571">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="现代化" id="11" weight="0.06529209621993129">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="中国式" id="12" weight="0.07954545454545454">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="思想" id="13" weight="0.05252100840336134">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="战略" id="14" weight="0.0918918918918919">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="人类" id="15" weight="0.14285714285714282">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="精神" id="16" weight="0.10322580645161293">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="文化" id="17" weight="0.11931818181818178">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="国际" id="18" weight="0.061224489795918366">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="世界" id="19" weight="0.11875000000000004">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="和平" id="20" weight="0.08450704225352113">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="命运" id="21" weight="0.07287449392712547">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="共同体" id="22" weight="0.07287449392712547">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="历史" target="合作" id="23" weight="0.05806451612903227">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="国家" id="24" weight="1.0000000000000007">
+        <attvalues>
+          <attvalue for="2" value="200" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="战略" id="25" weight="0.9999999999999949">
+        <attvalues>
+          <attvalue for="2" value="185" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="现代化" id="26" weight="0.999999999999997">
+        <attvalues>
+          <attvalue for="2" value="291" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="精神" id="27" weight="1.0000000000000016">
+        <attvalues>
+          <attvalue for="2" value="155" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="安全" id="28" weight="0.9999999999999987">
+        <attvalues>
+          <attvalue for="2" value="105" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="发展" id="29" weight="0.9999999999999915">
+        <attvalues>
+          <attvalue for="2" value="641" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="社会主义" id="30" weight="1.0000000000000122">
+        <attvalues>
+          <attvalue for="2" value="527" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="特色" id="31" weight="0.9999999999999967">
+        <attvalues>
+          <attvalue for="2" value="520" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="思想" id="32" weight="0.9999999999999971">
+        <attvalues>
+          <attvalue for="2" value="476" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="建设" id="33" weight="1.0000000000000042">
+        <attvalues>
+          <attvalue for="2" value="383" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="人民" id="34" weight="1.000000000000003">
+        <attvalues>
+          <attvalue for="2" value="184" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="我们" id="35" weight="0.9999999999999983">
+        <attvalues>
+          <attvalue for="2" value="254" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="创新" id="36" weight="0.9999999999999976">
+        <attvalues>
+          <attvalue for="2" value="195" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="理论" id="37" weight="0.9999999999999957">
+        <attvalues>
+          <attvalue for="2" value="177" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="命运" id="38" weight="1.0000000000000038">
+        <attvalues>
+          <attvalue for="2" value="247" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="共同体" id="39" weight="1.0000000000000038">
+        <attvalues>
+          <attvalue for="2" value="247" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="人类" id="40" weight="1.0000000000000009">
+        <attvalues>
+          <attvalue for="2" value="147" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="合作" id="41" weight="1.0000000000000016">
+        <attvalues>
+          <attvalue for="2" value="155" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="中国式" id="42" weight="1.000000000000004">
+        <attvalues>
+          <attvalue for="2" value="176" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="强国" id="43" weight="0.9999999999999976">
+        <attvalues>
+          <attvalue for="2" value="168" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="文化" id="44" weight="1.000000000000004">
+        <attvalues>
+          <attvalue for="2" value="176" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="和平" id="45" weight="0.9999999999999991">
+        <attvalues>
+          <attvalue for="2" value="71" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="国际" id="46" weight="1.0000000000000009">
+        <attvalues>
+          <attvalue for="2" value="147" />
+        </attvalues>
+      </edge>
+      <edge source="新时代" target="世界" id="47" weight="0.9999999999999974">
+        <attvalues>
+          <attvalue for="2" value="160" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="社会主义" id="48" weight="0.007590132827324478">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="我们" id="49" weight="0.003937007874015748">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="创新" id="50" weight="0.005128205128205128">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="特色" id="51" weight="0.007692307692307693">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="建设" id="52" weight="0.0026109660574412533">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="思想" id="53" weight="0.008403361344537815">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="发展" id="54" weight="0.0031201248049922">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="精神" id="55" weight="0.0064516129032258064">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="命运" id="56" weight="0.004048582995951417">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="国家" id="57" weight="0.005">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="共同体" id="58" weight="0.004048582995951417">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="过去" target="世界" id="59" weight="0.00625">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="现代化" id="60" weight="0.01718213058419244">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="社会主义" id="61" weight="0.007590132827324478">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="特色" id="62" weight="0.007692307692307693">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="建设" id="63" weight="0.005221932114882507">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="战略" id="64" weight="0.010810810810810811">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="创新" id="65" weight="0.010256410256410256">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="思想" id="66" weight="0.004201680672268907">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="发展" id="67" weight="0.0078003120124804995">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="理论" id="68" weight="0.01694915254237288">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="合作" id="69" weight="0.012903225806451613">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="国家" id="70" weight="0.005">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="人民" id="71" weight="0.005434782608695652">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="国际" id="72" weight="0.013605442176870748">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="世界" id="73" weight="0.0125">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="精神" id="74" weight="0.0064516129032258064">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="和平" id="75" weight="0.014084507042253521">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="命运" id="76" weight="0.004048582995951417">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="安全" id="77" weight="0.009523809523809525">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="迈向" target="共同体" id="78" weight="0.004048582995951417">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="人民" id="79" weight="0.010869565217391304">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="社会主义" id="80" weight="0.013282732447817837">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="创新" id="81" weight="0.015384615384615385">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="特色" id="82" weight="0.013461538461538462">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="国际" id="83" weight="0.03401360544217687">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="发展" id="84" weight="0.0109204368174727">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="思想" id="85" weight="0.010504201680672268">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="理论" id="86" weight="0.005649717514124294">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="建设" id="87" weight="0.015665796344647518">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="合作" id="88" weight="0.012903225806451613">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="和平" id="89" weight="0.014084507042253521">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="国家" id="90" weight="0.015">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="战略" id="91" weight="0.010810810810810811">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="命运" id="92" weight="0.008097165991902834">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="共同体" id="93" weight="0.008097165991902834">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="世界" id="94" weight="0.00625">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="文化" id="95" weight="0.005681818181818182">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="安全" id="96" weight="0.009523809523809525">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="现代化" id="97" weight="0.01718213058419244">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="人类" id="98" weight="0.006802721088435374">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="强国" id="99" weight="0.023809523809523808">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="我们" id="100" weight="0.007874015748031496">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="当前" target="中国式" id="101" weight="0.017045454545454544">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="人民" id="102" weight="0.1304347826086956">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="我们" id="103" weight="0.1417322834645668">
+        <attvalues>
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="创新" id="104" weight="0.12820512820512817">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="思想" id="105" weight="0.06932773109243699">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="发展" id="106" weight="0.13728549141965646">
+        <attvalues>
+          <attvalue for="2" value="88" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="理论" id="107" weight="0.1468926553672317">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="国家" id="108" weight="0.16000000000000006">
+        <attvalues>
+          <attvalue for="2" value="32" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="战略" id="109" weight="0.13513513513513514">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="建设" id="110" weight="0.10704960835509136">
+        <attvalues>
+          <attvalue for="2" value="41" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="强国" id="111" weight="0.05357142857142857">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="现代化" id="112" weight="0.10996563573883165">
+        <attvalues>
+          <attvalue for="2" value="32" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="命运" id="113" weight="0.09716599190283395">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="国际" id="114" weight="0.15646258503401358">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="共同体" id="115" weight="0.10121457489878537">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="人类" id="116" weight="0.08163265306122447">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="特色" id="117" weight="0.07307692307692304">
+        <attvalues>
+          <attvalue for="2" value="38" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="世界" id="118" weight="0.12500000000000003">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="中国式" id="119" weight="0.10227272727272725">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="精神" id="120" weight="0.05806451612903227">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="合作" id="121" weight="0.13548387096774195">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="社会主义" id="122" weight="0.07210626185958253">
+        <attvalues>
+          <attvalue for="2" value="38" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="文化" id="123" weight="0.05681818181818183">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="安全" id="124" weight="0.08571428571428572">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="以来" target="和平" id="125" weight="0.056338028169014086">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="面向未来" target="战略" id="126" weight="0.021621621621621623">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="面向未来" target="创新" id="127" weight="0.005128205128205128">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="面向未来" target="发展" id="128" weight="0.0015600624024961">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="面向未来" target="理论" id="129" weight="0.005649717514124294">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="面向未来" target="合作" id="130" weight="0.0064516129032258064">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="面向未来" target="精神" id="131" weight="0.0064516129032258064">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="面向未来" target="命运" id="132" weight="0.012145748987854251">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="面向未来" target="社会主义" id="133" weight="0.0018975332068311196">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="面向未来" target="共同体" id="134" weight="0.012145748987854251">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="面向未来" target="世界" id="135" weight="0.00625">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="国家" id="136" weight="1.0000000000000007">
+        <attvalues>
+          <attvalue for="2" value="200" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="战略" id="137" weight="0.9999999999999949">
+        <attvalues>
+          <attvalue for="2" value="185" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="现代化" id="138" weight="0.999999999999997">
+        <attvalues>
+          <attvalue for="2" value="291" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="精神" id="139" weight="0.9935483870967758">
+        <attvalues>
+          <attvalue for="2" value="154" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="安全" id="140" weight="0.9999999999999987">
+        <attvalues>
+          <attvalue for="2" value="105" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="发展" id="141" weight="0.9999999999999915">
+        <attvalues>
+          <attvalue for="2" value="641" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="社会主义" id="142" weight="1.0000000000000122">
+        <attvalues>
+          <attvalue for="2" value="527" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="特色" id="143" weight="0.9999999999999967">
+        <attvalues>
+          <attvalue for="2" value="520" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="思想" id="144" weight="0.9999999999999971">
+        <attvalues>
+          <attvalue for="2" value="476" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="建设" id="145" weight="1.0000000000000042">
+        <attvalues>
+          <attvalue for="2" value="383" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="人民" id="146" weight="1.000000000000003">
+        <attvalues>
+          <attvalue for="2" value="184" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="我们" id="147" weight="0.9999999999999983">
+        <attvalues>
+          <attvalue for="2" value="254" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="创新" id="148" weight="0.9999999999999976">
+        <attvalues>
+          <attvalue for="2" value="195" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="理论" id="149" weight="0.9999999999999957">
+        <attvalues>
+          <attvalue for="2" value="177" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="命运" id="150" weight="1.0000000000000038">
+        <attvalues>
+          <attvalue for="2" value="247" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="共同体" id="151" weight="1.0000000000000038">
+        <attvalues>
+          <attvalue for="2" value="247" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="人类" id="152" weight="1.0000000000000009">
+        <attvalues>
+          <attvalue for="2" value="147" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="合作" id="153" weight="1.0000000000000016">
+        <attvalues>
+          <attvalue for="2" value="155" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="中国式" id="154" weight="1.000000000000004">
+        <attvalues>
+          <attvalue for="2" value="176" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="强国" id="155" weight="0.9999999999999976">
+        <attvalues>
+          <attvalue for="2" value="168" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="文化" id="156" weight="0.9943181818181859">
+        <attvalues>
+          <attvalue for="2" value="175" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="和平" id="157" weight="0.9999999999999991">
+        <attvalues>
+          <attvalue for="2" value="71" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="国际" id="158" weight="1.0000000000000009">
+        <attvalues>
+          <attvalue for="2" value="147" />
+        </attvalues>
+      </edge>
+      <edge source="时代" target="世界" id="159" weight="0.9999999999999974">
+        <attvalues>
+          <attvalue for="2" value="160" />
+        </attvalues>
+      </edge>
+      <edge source="今天" target="人民" id="160" weight="0.010869565217391304">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="今天" target="发展" id="161" weight="0.0046801872074883">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="今天" target="精神" id="162" weight="0.012903225806451613">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="今天" target="命运" id="163" weight="0.008097165991902834">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="今天" target="共同体" id="164" weight="0.008097165991902834">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="今天" target="建设" id="165" weight="0.005221932114882507">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="今天" target="人类" id="166" weight="0.02040816326530612">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="今天" target="强国" id="167" weight="0.011904761904761904">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="今天" target="战略" id="168" weight="0.005405405405405406">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="人民" id="169" weight="0.1304347826086956">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="发展" id="170" weight="0.12168486739469553">
+        <attvalues>
+          <attvalue for="2" value="78" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="国家" id="171" weight="0.13500000000000004">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="安全" id="172" weight="0.08571428571428572">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="强国" id="173" weight="0.2976190476190476">
+        <attvalues>
+          <attvalue for="2" value="50" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="战略" id="174" weight="0.0918918918918919">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="创新" id="175" weight="0.1128205128205128">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="建设" id="176" weight="0.18537859007832927">
+        <attvalues>
+          <attvalue for="2" value="71" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="社会主义" id="177" weight="0.12523719165085376">
+        <attvalues>
+          <attvalue for="2" value="66" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="特色" id="178" weight="0.09038461538461529">
+        <attvalues>
+          <attvalue for="2" value="47" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="国际" id="179" weight="0.08843537414965984">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="精神" id="180" weight="0.18064516129032251">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="文化" id="181" weight="0.11931818181818178">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="思想" id="182" weight="0.08613445378151267">
+        <attvalues>
+          <attvalue for="2" value="41" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="现代化" id="183" weight="0.26460481099656313">
+        <attvalues>
+          <attvalue for="2" value="77" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="中国式" id="184" weight="0.318181818181818">
+        <attvalues>
+          <attvalue for="2" value="56" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="世界" id="185" weight="0.06874999999999999">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="我们" id="186" weight="0.2204724409448816">
+        <attvalues>
+          <attvalue for="2" value="56" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="理论" id="187" weight="0.11864406779661021">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="和平" id="188" weight="0.1830985915492958">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="人类" id="189" weight="0.10884353741496594">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="命运" id="190" weight="0.04858299595141699">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="共同体" id="191" weight="0.04453441295546558">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="征程" target="合作" id="192" weight="0.05161290322580646">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="社会主义" id="193" weight="0.007590132827324478">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="建设" id="194" weight="0.013054830287206266">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="精神" id="195" weight="0.025806451612903226">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="国家" id="196" weight="0.015">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="战略" id="197" weight="0.005405405405405406">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="文化" id="198" weight="0.022727272727272728">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="现代化" id="199" weight="0.010309278350515464">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="特色" id="200" weight="0.007692307692307693">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="合作" id="201" weight="0.0064516129032258064">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="和平" id="202" weight="0.028169014084507043">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="我们" id="203" weight="0.015748031496062992">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="国际" id="204" weight="0.006802721088435374">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="发展" id="205" weight="0.0046801872074883">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="世界" id="206" weight="0.018750000000000003">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="人民" id="207" weight="0.016304347826086956">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="强国" id="208" weight="0.005952380952380952">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="思想" id="209" weight="0.0021008403361344537">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="走向" target="中国式" id="210" weight="0.011363636363636364">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="现代化" id="211" weight="0.006872852233676976">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="建设" id="212" weight="0.015665796344647518">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="发展" id="213" weight="0.0218408736349454">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="精神" id="214" weight="0.012903225806451613">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="战略" id="215" weight="0.02702702702702703">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="社会主义" id="216" weight="0.013282732447817837">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="我们" id="217" weight="0.031496062992125984">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="特色" id="218" weight="0.015384615384615385">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="思想" id="219" weight="0.01680672268907563">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="文化" id="220" weight="0.022727272727272728">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="国际" id="221" weight="0.03401360544217687">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="世界" id="222" weight="0.049999999999999996">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="人类" id="223" weight="0.061224489795918366">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="合作" id="224" weight="0.012903225806451613">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="命运" id="225" weight="0.032388663967611336">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="国家" id="226" weight="0.015">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="共同体" id="227" weight="0.03643724696356275">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="和平" id="228" weight="0.056338028169014086">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="人民" id="229" weight="0.016304347826086956">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="理论" id="230" weight="0.011299435028248588">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="创新" id="231" weight="0.010256410256410256">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="未来" target="中国式" id="232" weight="0.005681818181818182">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="如今" target="人民" id="233" weight="0.005434782608695652">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="如今" target="建设" id="234" weight="0.0026109660574412533">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="如今" target="强国" id="235" weight="0.005952380952380952">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
