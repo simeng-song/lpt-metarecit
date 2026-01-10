@@ -13,4 +13,3 @@ top.to_csv("/Users/songsimeng/INALCOM2/lpt-metarecit/resultats/topic1_top_docs.c
            index=False, encoding="utf-8-sig")
 
 print(top[["doc_index", "main_prob", "title", "n_sentences"]].head(10))
-print("[OK] Export -> topic1_top_docs.csv")
